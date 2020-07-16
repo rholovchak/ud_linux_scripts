@@ -1,0 +1,20 @@
+Thu Jul 16 14:10:15 EEST 2020
+/home/parallels/Music 0
+/home/parallels/Downloads 1
+/home/parallels/.cache 1117
+/home/parallels/.ssh 0
+/home/parallels/Documents 1
+/home/parallels/Desktop 0
+/home/parallels/Videos 0
+/home/parallels/fontconfig 66
+/home/parallels/.vscode 1
+/home/parallels/.config 347
+/home/parallels/.local 14
+/home/parallels/.mozilla 420
+/home/parallels/Templates 0
+/home/parallels/.gnupg 2
+/home/parallels/Public 0
+/home/parallels/.parallels 3
+/home/parallels/.pki 3
+/home/parallels/Pictures 0
+/home/parallels/ud_linux_scripts 40

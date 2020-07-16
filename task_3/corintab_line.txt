@@ -1,0 +1,1 @@
+59 23 * * 5 /bin/bash /home/parallels/ud_linux_scripts/task_3/script.sh >/dev/null 2>&1
