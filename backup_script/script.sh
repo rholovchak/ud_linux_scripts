@@ -13,8 +13,8 @@ create_temp_files (){
 
 
 perform_check (){
-	find $HOME -maxdepth 1 -mindepth 1 -type f -name "*.conf" > $TEMP_CHECK_FILE
-	find $HOME -maxdepth 1 -mindepth 1 -type f -name "*.config" >> $TEMP_CHECK_FILE
+	find $USER_HOME -maxdepth 1 -mindepth 1 -type f -name "*.conf" > $TEMP_CHECK_FILE
+	find $USER_HOME -maxdepth 1 -mindepth 1 -type f -name "*.config" >> $TEMP_CHECK_FILE
 	BACKUP_CONF_FILE_CONTENTS=$(<$BACKUP_CONF_FILE)
 	TEMP_CHECK_FILE_CONTENTS=$(<$TEMP_CHECK_FILE)
 	if [ "$BACKUP_CONF_FILE_CONTENTS" != "$TEMP_CHECK_FILE_CONTENTS" ]
@@ -25,8 +25,8 @@ perform_check (){
 
 
 backup_gen (){
-	find $HOME -maxdepth 1 -mindepth 1 -type f -name "*.conf" > $BACKUP_CONF_FILE
-	find $HOME -maxdepth 1 -mindepth 1 -type f -name "*.config" >> $BACKUP_CONF_FILE
+	find $USER_HOME -maxdepth 1 -mindepth 1 -type f -name "*.conf" > $BACKUP_CONF_FILE
+	find $USER_HOME -maxdepth 1 -mindepth 1 -type f -name "*.config" >> $BACKUP_CONF_FILE
 	tar -czf $BACKUP -T $BACKUP_CONF_FILE
 	echo "BACKUP generated!"
 }
