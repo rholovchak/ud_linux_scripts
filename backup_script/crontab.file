@@ -1,0 +1,1 @@
+* * * * * /bin/bash /home/parallels/ud_linux_scripts/backup_script/script.sh >/dev/null 2>&1
